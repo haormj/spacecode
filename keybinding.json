@@ -170,5 +170,15 @@
 		"command": "center-editor-window.center",
 		"mac": "ctrl+l",
 		"when": "editorTextFocus || findWidgetVisible"
+	},
+	{
+		"key": "ctrl+z",
+		"command": "file-browser.actions",
+		"when": "inFileBrowser"
+	},
+	{
+		"key": "ctrl+a",
+		"command": "-file-browser.actions",
+		"when": "inFileBrowser"
 	}
 ]
