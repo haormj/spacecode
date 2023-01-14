@@ -190,5 +190,10 @@
 		"key": "ctrl+a",
 		"command": "-file-browser.actions",
 		"when": "inFileBrowser"
+	},
+	{
+		"key": "p",
+		"command": "magit.pushing",
+		"when": "editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
 	}
 ]
