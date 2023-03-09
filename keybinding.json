@@ -195,5 +195,25 @@
 		"key": "p",
 		"command": "magit.pushing",
 		"when": "editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "cursorLeft",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "left",
+		"command": "-cursorLeft",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+f",
+		"command": "cursorRight",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "right",
+		"command": "-cursorRight",
+		"when": "textInputFocus"
 	}
 ]
