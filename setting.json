@@ -1,7 +1,7 @@
 {
-    "workbench.colorTheme": "Visual Studio Light",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000, // 自动保存间隔，但是为ms，也就是1s保存一次
+    "go.formatTool": "goformat",
     "vim.easymotion": true,
     "vim.useSystemClipboard": true,
     "vim.insertModeKeyBindingsNonRecursive": [
@@ -177,5 +177,21 @@
                 "<Esc>"
             ]
         }
-    ]
+    ],
+    "cmake.configureOnOpen": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.inlineSuggest.enabled": true,
+    // "http.proxy": "http://127.0.0.1:4782",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }
